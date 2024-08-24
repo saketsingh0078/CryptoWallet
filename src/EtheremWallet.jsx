@@ -88,14 +88,14 @@ export const EtheremWallet = ({ mnemonic }) => {
             </button>
             <div className="flex flex-wrap gap-2">
               <input
-                className=" border-2 rounded-md p-2 "
+                className=" border-2 rounded-md p-2 text-black"
                 type="text"
                 placeholder="Send to Address"
                 value={sendToAddress}
                 onChange={(e) => setSendToAddress(e.target.value)}
               />
               <input
-                className="border-2 rounded-md p-2 "
+                className="border-2 rounded-md p-2 text-black "
                 type="text"
                 placeholder="Amount in ETH"
                 value={amountToSend}
